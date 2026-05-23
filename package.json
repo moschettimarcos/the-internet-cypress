@@ -1,0 +1,24 @@
+{
+  "name": "the-internet-cypress",
+  "version": "1.0.0",
+  "description": "Automação E2E profissional do site The Internet com Cypress",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:headed": "cypress run --headed",
+    "test": "cypress run",
+    "lint": "eslint cypress --ext .ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "cypress": "^14.2.1",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
